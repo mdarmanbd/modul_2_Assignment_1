@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>modul_2</title>
+        <!--bootstrap icon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+         <!---bootstarp-5 cdn ---->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--own stylesheet-->
+        <link rel="stylesheet" href="./asset/css/stylesheet.css">
+        <style>
+          
+           
+        </style>
+    </head>
+<body>
+
+</body>
+
+<script>
+
+
+//Exercise 1: 
+// Write a function named destructureExample that takes in an object and an array as parameters. The function should use destructuring to extract the values 'name' and 'age' from the object and the values at index 0 and index 2 from the array. The function should then return an object with the extracted values as properties with name and age.
+
+// function destructureExample(object,array){
+//    const {name,age} = object
+//    const [index1,index2] = array
+   
+//   return ({
+//     name,
+//     age,
+//     index1,
+//     index2
+//   })
+   
+// }
+
+// const obj = {
+//   name: 'John',
+//   age: 30, 
+//   city: 'New York' 
+// }
+
+// const arr = [10,20,30,40]
+
+// const outPut = destructureExample(obj,arr)
+// console.log(outPut)
+
+  //Exercise 2: 
+
+//   function sumNumbers(a,b,...numbers){
+//     let count = a+b;
+
+//     for(let num of numbers){
+//        count = count + num
+//     }
+//     return count;
+//   }
+
+//  const result = sumNumbers(1,2,3,4,5)
+
+// console.log(result)
+
+//Exercise 3: 
+
+// function createGreeting(name){
+//   let greating = ` "Hello ${name}! Welcome to our website." `
+
+//   return greating 
+// }
+
+// const result = createGreeting('Alice')
+// console.log(result)
+
+
+// Exercise 4: 
+
+// function isEven (){
+//     let even = ' "Even" '
+//     return even
+// }
+
+// const number = 18
+// if (number % 2 === 0){
+//   const result = isEven ()
+//   console.log(result)
+// }else{
+//   console.log('"Odd"')
+// }
+
+// Exercise 5: 
+
+// let multiply = (a,b) => {
+//   return(a*b)
+  
+// }
+// console.log(multiply(2,3)) 
+
+
+// Exercise 6: 
+
+
+// let getLargestNumber = (a,b) => {
+//     let count1 = a ;
+//     let count2 = b;
+   
+//    return count1 > count2 ? count1 : count2
+    
+// }
+
+// let getLargestNumber = (a,b) => {
+//     let count1 = a;
+//     let count2 = b;
+   
+//     let result = count1 > count2 || count2
+
+//    if (result == true){
+//       return count1
+//    }else{
+//       return count2
+//    }
+   
+// }
+
+// let getLargestNumber = (a,b) => {
+//     let count1 = a;
+//     let count2 = b;
+   
+//     return count1 > count2 && count1 || count2
+
+// }
+
+// let number1 = 4;
+// let number2 = 8;
+
+// console.log(getLargestNumber(number1,number2));
+
+
+// Exercise 7: 
+
+// getAddressCity = (addr) => {
+//     return addr.city ? addr.city : ' "unknown " ';
+// }
+
+// const address = 
+//   { street: '123 Main St',
+  
+//   country: 'USA' };
+
+// let myFunction = getAddressCity(address)
+
+// console.log(myFunction)
+
+
+// Exercise 8: 
+
+// doubleNumbers = (num) =>{
+//   return num.filter( multi  => multi * 2)
+// }
+
+// let count = [1,2,3,4,5]
+
+// let myFunction = doubleNumbers(count)
+
+// console.log(myFunction)
+
+// Exercise 9: 
+
+// filterEvenNumbers = (num) => {
+//   return num.filter(
+//       fill = (a) => {return a % 2 == 0}
+//     )
+// }
+
+// let count = [1,2,3,4,5]
+
+// let result = filterEvenNumbers(count)
+// console.log(result)
+
+// Exercise 10: 
+
+// sumArray = (num) => {
+
+//   return num.reduce(
+//     redu = (sum,total) => {
+//         return sum += total
+//     }
+//   )
+// }
+
+// let Number = [1,2,3,4,5]
+
+// let result = sumArray(Number)
+// console.log(result);
+
+// Exercise 11: 
+
+
+// sortNumbers = (num) => {
+//   return num.sort()
+// }
+
+// let count = [5,2,8,1,4];
+
+// let myFunction = sortNumbers(count);
+// console.log(myFunction)
+
+
+
+
+
+</script>
+
+
+
+  
